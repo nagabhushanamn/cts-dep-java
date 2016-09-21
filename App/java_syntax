@@ -1,0 +1,236 @@
+
+
+  1. Java-Project
+  
+  
+    proj
+    |
+    |
+    |----- pack1  ( .java / .class )
+    | | 
+    | |----pack12
+    |
+    |----- pack2
+    |
+    |
+    
+    ==============================================================
+    
+    2. Java File ( Abc.java )
+    
+    |--------------------------------------------
+    |
+    | // package dec ( 1 )  ( optional )
+    | // import statements ( n ) ( optional )
+    |
+    | // public class Abc( 1 ) ( must )
+    |
+    | // default classes ( n ) ( optional )
+    |
+    ---------------------------------------------
+    
+    ================================================================
+    
+    
+    3. package dec
+    
+       folder which contains related java files of any module.
+       
+       why we need ?
+       
+       --> for better maintenance.
+       --> to avoid naming collisions on Types ( class , interface , enum , Annotation )
+       
+       
+       syntax
+       
+       package root;
+               root.sub1.sub2;
+               
+               
+       guideline from experts to write package names
+       
+       e.g
+       
+       Employee.java
+       
+           module  : emp
+           project : EM
+           comp    : CTS
+           type    : com        
+       
+       package ctype.cname.pname.mname;
+       
+       e.g
+       
+       package com.cts.em.emp;
+       
+       
+   ================================================================
+  
+   4. import statements
+   
+   	proj
+   	
+      p1  --> A.java , B.java
+      p2  --> C.Java , D.java 
+  
+  
+  
+   e.g
+   
+     package p1;
+     import p2.C;  or import p2.*;
+     		
+     public class A{
+     
+     B b;
+     C c;
+     
+     }
+   
+   syntax:
+   
+   import pack.ClassName;
+   import pack.*;
+   import pack.sub1.*;
+   
+   JDK 1.5
+   
+   import static pack.ClassName.* ; // to import static memeber from any class
+   
+   
+   ================================================================
+   
+   
+   Object Oriented Concepts  
+   
+   
+   what is object ?
+   
+     --> data,info,prop,attr   ( state )
+     --> work,func,method,oprn ( behav )
+     --> address,reference,loc ( identity )
+     
+     obj ===> SBI
+     
+     -------------------------------------------------
+     
+     e.g 
+     
+     many employees  ( similar objs )
+     
+     --> same state-def  ( with different values )
+     --> same-behav      ( returns different result )
+     
+     
+     object's blue-print/template/description ===> class
+     
+     -------------------------------------------------
+     
+     class   ===> object ( instance of class )
+     
+     --------------------------------------------------
+     
+     
+     
+     object oriented concepts
+     
+     
+     --> Abstraction
+     --> Encapsulation
+     --> Inheritance
+     --> polymorphic
+     
+     -------------------------------------------------
+     
+     types of objects
+     
+      a. dependent
+      b. dependency
+     
+     
+     A.Abstraction ( Front-End / Interface / What you see on that object )
+     
+     
+     why we need ?
+     
+     --> easy to use/learn by dependent-obj
+     --> loose-coupling 
+     
+     
+     B.Encapsulation ( Back-End / Implementation )
+     
+     why we need ?
+     
+     --> functionality of an obj.
+     --> to hide complexity
+     --> for security reason
+     
+     
+     C. Inheritence
+     
+     
+     e.g   JavaEmployee , JSEmployee , TestEmployee
+     
+           Employee
+     
+     
+           re-use/inherit common things from mode generalized-class to specialized-classes
+     
+           why we need ?
+           
+           --> re-use
+           --> easy to to extend current system
+           
+           
+      D. Ploymorphism
+      
+      
+        e.g
+        
+            trainer ( e.g nag )     
+            
+              doTeach(sub,mode)
+              
+                   
+         why we need ?
+         
+         can implement ' closed for modification and open for extension ' OO principle  
+     
+     
+     ------------------------------------------------------------------------------------
+     
+     java --> OO P lang
+     
+     -------------------------------------------------------------------------------------
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  
+  
+  
