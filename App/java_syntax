@@ -1,5 +1,7 @@
 
 
+------------------------------------------------------------------------
+
   1. Java-Project
   
   
@@ -132,8 +134,7 @@
      
      --------------------------------------------------
      
-     
-     
+   
      object oriented concepts
      
      
@@ -205,22 +206,205 @@
      
      -------------------------------------------------------------------------------------
    
+     
+     
+     
+     5. class syntax
+     -----------------
+     
+	________	___________      class Name [extends] BaseClass {
+	[public]    [abstract]            		[implements] Interface1,Interface2
+	[      ]    [final   ]
+	    		[strictfp]             
+							      // state-def --> variables
+							      
+							      // constructor(s)
+							      
+							      // behav    ---> methods
+							      
+							      // Inner class
+	---------------------------					      
+	[public]	[static]				      
+	[private]					      
+	[protected]					      
+	[        ]			   
+   
+                                }
+                                
+                                
+   
+  ----------------------------------------------------------------------------------------------- 
+  
+   6. variables ( data in lang )
+   
+   
+      types of data-type
+      
+      1. primitive ( 8 )
+      2. reference 
+      
+      e.g
+      
+      class Mobile{
+      
+      }
+      
+      class Employee{
+        
+        // class/static var
+        
+        final static String compName="CTS";
+        static String trainer;
+        
+        // object/instance var
+        int id;
+        String name; 
+      	int age;  // primitive/simple
+      	Mobile mobile; // reference
+      	
+      	public void method(){
+      	
+      		int loc;  // local var
+      	
+      	}
+      	
+      	
+      	public static void teach(){}
+      	public void listen(){}
+      	
+      	
+      	
+      }
+      
    
    
    
+		_______       _________  DataType name = [value / object ];
+		[public]       [static ]
+		[private]      [final  ]
+		[protected]    [volatile]
+		[       ]      [transient]
+  
+  		local-val
+        ---------------------------
+        - Nil -        [final]
+      
+   
+   -----------------------------------------------------------------------------------------------
+   
+   
+   7. methods  --> behav
+   
+   			ReturnType
+   			
+   			 --> void
+   			 --> primitive
+   			 --> reference
+   
+   
+		__________     _________   ReturnType methodName([args]) [throws] CheckedException{
+		[public]       [static]    
+		[private]	   [final ]			// A,R,L and Assigment oprn
+		[protected]	   [strictfp]	    // Conditional statements
+		[         ]	   [synchronized]	// Looping staments
+					   [abstract]	    // Invoke other method
+					   [native]	           
+						          		 [return] [result]
+						           
+						           
+						           		}
+					   
+   
+   -----------------------------------------------------------------------------------------------
+   
+   
+   8. constructor - syntax
+   
+   in java , object creation 2 step process
+   
+     a. memory allocation  --> 'new'
+     b. initialize memory with obj's data --> constructor
+     
+     obj ===> new Constructor()
+     
+     
+     imp note : every class has 'one' default constructor when no constructors are defined
+     
+     
+     
+	 _________   _______ ClassName([args])[throws] CheckedException{
+	 [public]					       // logic to initialize obj.
+	 [private]			 }
+	 [protected]
+	 [         ]  
+	   
+   -----------------------------------------------------------------------------------------------
    
    
    
+   9. Interface
    
    
+_______   ______ interface Name [extends] Interce1,Interface2{
+[public]    
+                  // constant-state
+                  public static final DataType name=value;
+                  
+                  // behav
+                  
+                  public abstract ReturnType methodName([args])[throws]Exception
+                  
+                  // From JDK 1.8
+                  
+                  public default ReturnType method(){
+                    // logic...
+                  }
+                  
+                  public static ReturnType staMethod(){
+                  
+                  }
+                  
+
+   		          }
+   		          
+  -----------------------------------------------------------------------------------------------
+  
+  
+  10. Enum Type
+  
+  
+   why we need ?
+   
+   to group related constants with type
    
    
+   ______   enum Gender{
+   [public] 		  
+   			MALE,FEMALE,OTHER
+   
+           }        
    
    
+   -----------------------------------------------------------------------------------------------
    
    
+   11. Annotations
    
    
+   to describe java programs for others ( compiler , runtime , tools and frameworks )
+   
+   
+   public   @interface Name{
+   
+   // props...
+   
+   
+   }
+   
+   
+    -----------------------------------------------------------------------------------------------
+    
+    
    
    
    
