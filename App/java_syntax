@@ -405,7 +405,15 @@ _______   ______ interface Name [extends] Interce1,Interface2{
     -----------------------------------------------------------------------------------------------
     
     
+   Java Naming-Conventions
+   ----------------------------
    
+   
+   keywords  --> lower-case
+   package-names --> lower-case
+   Type Names ( class , interface , enum , annotations  )  ---> pascal-case e.g 'JavaEmployee'  
+   var/method names  --> camel-case  e.g  myName , myMethod
+   constant-names     --> upper-case
    
    
    
