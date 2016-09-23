@@ -1,0 +1,78 @@
+
+
+
+  1. Abstraction  --> interface of an object
+  2. Encapsulation --> implementation of an object
+  
+  -------------------------------------------------
+  
+  How to implement in java-lang ?
+  
+  many ways 
+  
+  
+   way-1 : using Access-Specifiers
+   way-2 : using packages
+   way-3 : using acessor methods ( set and get )
+   
+   way-4 : using Class,AbstractClass and Interfaces
+   way-5 : using proper 'structural and behavioral' design patterns
+   
+   
+   -------------------------------------------------
+   
+   
+   Access specifiers
+   ------------------
+   
+   e.g
+   
+   App
+   
+       p1
+       
+         A.java
+         B.java  extends A
+         C.java
+       
+       p2
+       
+         D.java extends A
+         E.java
+         
+  ---------------------------------------------------------------------------------------------------
+   
+   
+			   --------------------------------------------------------------------------
+			  	same-package                           | other-package 
+			   --------------------------------------------------------------------------
+			   same-class  | sub-class | other-class   | sub-class  | other-class
+			   --------------------------------------------------------------------------
+			     
+  private        Y              N            N             N                N 
+   
+  (      )       Y              Y            Y             N                N
+   
+  protected      Y              Y            Y             Y                N 
+  
+  public         Y              Y            Y             Y                Y 
+   
+   
+   
+   ---------------------------------------------------------------------------------------------------
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
