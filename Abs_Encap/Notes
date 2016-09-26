@@ -13,9 +13,11 @@
   
    way-1 : using Access-Specifiers
    way-2 : using packages
-   way-3 : using acessor methods ( set and get )
+   way-3 : using accessor methods ( set and get )
    
-   way-4 : using Class,AbstractClass and Interfaces
+   way-4 : using Class and Interfaces
+   
+   
    way-5 : using proper 'structural and behavioral' design patterns
    
    
@@ -60,6 +62,39 @@
    
    
    ---------------------------------------------------------------------------------------------------
+   
+   
+   
+    types of objects
+   
+   
+     1. dependent
+     2. dependency 
+   
+   
+   
+     e.g   shopping
+     
+           1. billing : getTotal(cart)   : dependent
+           
+           2. priceMatrix : getPrice(item) : dependency
+           
+           
+           
+           dependent   HAS-A   dependency
+           
+ -------------------------------------------------------------          
+     
+     
+     
+   servlet API  ( interfaces  )
+   
+   
+     developer  : Servlet  ( component )
+     
+     vendors    : Web-Container ( container )  e.g apache's Tomcat  , Jetty 
+     
+  ----------------------------------------------------------------   
    
    
    

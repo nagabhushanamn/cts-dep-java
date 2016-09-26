@@ -1,12 +1,9 @@
 package com;
 
-import com.emp.Employee;
-
-import p1.A;
-import p1.B;
-import p1.C;
-import p2.D;
-import p2.E;
+import com.shop.bill.BillingImpl;
+import com.shop.pm.PriceMatrix;
+import com.shop.pm.PriceMatrixImpl_v1;
+import com.shop.pm.PriceMatrixImpl_v2;
 
 public class App {
 
@@ -29,13 +26,13 @@ public class App {
 
 		// ----------------------------------
 
-		//Employee employee = new Employee();
+		// Employee employee = new Employee();
 		// employee.id=123;
 		// employee.name="A";
 		// employee.salary=1000.00;
 		// employee.bonus=employee.salary*0.3;
 
-		//System.out.println(employee);
+		// System.out.println(employee);
 
 		// obj's constraints are damaging without any restrictions
 		// employee.bonus=100000;
@@ -43,19 +40,35 @@ public class App {
 
 		// employee.salary=-1000;
 		// employee.salary=20000;
+
+		// ----------------------------------------
+
+		// Employee employee = new Employee();
+		// employee.setSalary(1000);
+		// employee.setSalary(2000);
+		//
+		//
+		// System.out.println(employee);
+
+		// ----------------------------------------
+
+		// shopping...
+
+		// some-one or comp-manger or container    ( spring f.w )
 		
-		//----------------------------------------
+		// Init
+		PriceMatrix priceMatrixV1=new PriceMatrixImpl_v1();
+		PriceMatrix priceMatrixV2=new PriceMatrixImpl_v2();
 		
-		
-		Employee employee = new Employee();
-		employee.setSalary(1000);
-		employee.setSalary(2000);
-		
-		
-		System.out.println(employee);
-		
-//		----------------------------------------
-		
+		BillingImpl billingComp = new BillingImpl(priceMatrixV2);
+
+		// Use
+		String[] cart = { "234234", "345345" };
+		double totalPrice = billingComp.getTotalPrice(cart);
+		System.out.println("Total Price - " + totalPrice);
+
+		// destroy
+		billingComp = null;
 
 	}
 
