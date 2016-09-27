@@ -14,12 +14,10 @@
    way-1 : using Access-Specifiers
    way-2 : using packages
    way-3 : using accessor methods ( set and get )
-   
    way-4 : using Class and Interfaces
+   way-5 : using proper  design patterns
    
-   
-   way-5 : using proper 'structural and behavioral' design patterns
-   
+          e.g pattern : listener/observer pattern
    
    -------------------------------------------------
    
@@ -95,10 +93,6 @@
      vendors    : Web-Container ( container )  e.g apache's Tomcat  , Jetty 
      
   ----------------------------------------------------------------   
-   
-   
-   
-   
    
    
    
