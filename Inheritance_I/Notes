@@ -1,0 +1,27 @@
+
+
+
+  Inheritance
+  -------------
+  
+  inherit common properties/methods from more generalized-class to specialized-class's objects
+  
+  
+  sub-clas    IS-A   sup-class
+  
+  why we need ?
+  
+  --> re-use common things
+  --> easy to extend
+  --> unified architecture
+  
+  
+  
+  
+  --------------------------------
+  
+  
+  e.g
+  
+  
+  
