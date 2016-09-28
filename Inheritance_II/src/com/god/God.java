@@ -21,9 +21,14 @@ public class God {
 	// animal.work();
 	// }
 
+	// Runtime Polymorsphism
 	public void manageLT(LivingThing liveThing) {
 		liveThing.eat();
 		liveThing.sleep();
+		if(liveThing instanceof Human){
+			Human human=(Human)liveThing; // explicit casting
+			human.study();
+		}
 		liveThing.work();
 	}
 
