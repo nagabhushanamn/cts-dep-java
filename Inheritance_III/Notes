@@ -1,0 +1,97 @@
+
+
+
+  Override
+  -----------
+  
+  re-implementing base-class's behav with different-logic in child-class
+  
+  follow coding - rules 
+
+  
+  
+  Abstract class 
+  ----------------
+  
+  in inheritance hierarchy , 
+  
+  --> more generalized-classes which are not eligible for instantiation
+  
+  --> if any class having at-least one abstract-method 
+  
+  ------------------------------------------------------------
+  
+  
+  
+  
+  
+    Interfaces   vs   Abstract-class
+    ---------------------------------
+    
+    
+    common points b/w these
+    
+    --> can't instantiate
+    --> can hold abstract methods
+    
+    
+    difference ( based on syntax ) 
+    
+    
+    Interface                |      Abstract-Class
+    
+    
+    immutable variable             immutable + mutable variables
+    
+    only abstract-methods          normal and abstract-methods
+    
+    no constructor                 constructors  exist
+    
+    
+    JDK 1.8
+    
+    default and static methods
+    
+    ---------------------------------------------------------- 
+    
+    when to use Interfaces and Abstract-class ?
+    
+    
+    
+    project
+    
+    
+      module-1(dependent)                 module-2( dependency )
+      --------------------                -------------------------
+                                          top-level    : Interfaces     ( 100 % abstraction )
+                                          middle-level : Abstract-Class ( partial implementations )  // if inheritance required  ( optional )
+                                          bottom-level : Implementations ( concrete class )  
+    
+    
+    
+   -----------------------------------------------------------------------
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
