@@ -1,0 +1,19 @@
+
+
+
+Type Casting
+-------------
+
+
+
+   types
+   
+   1. primitive
+   
+   	   implicit  ( JRE conversion )
+   	   explicit  ( Our conversion )
+   
+   2. reference
+   
+      implicit
+   	  explicit
