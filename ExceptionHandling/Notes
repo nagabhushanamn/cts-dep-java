@@ -1,0 +1,51 @@
+
+
+exeception
+-----------
+
+un-expected program flow disturb
+
+
+reasons for exceptions
+-----------------------
+
+--> divde by zero
+--> IO
+--> n/w
+--> SQL
+--> etc..............
+
+
+what happen if exception occurred but didn't handle ?
+
+by default , JRE will terminate java-process.
+
+
+soln .  handle it
+
+How to handle it ?
+
+using
+
+--> try,catch,finally   blocks
+--> throws 
+--> throw
+
+
+---------------------------------------
+
+advantages of Exception handlers
+
+
+1. Separating Error-Handling Code from "Regular" Code
+
+2: Propagating Errors Up the Call Stack
+
+3: Grouping and Differentiating Error Types
+
+---------------------------------------
+
+
+
+
+
