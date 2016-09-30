@@ -49,3 +49,45 @@ advantages of Exception handlers
 
 
 
+   types of exceptions
+   
+   
+   1. checked exceptions
+   
+   2. un-checked exceptions
+
+
+
+-------------------------------------
+
+
+Throwable
+
+
+   Exception
+   
+   Error     
+   
+   
+-------------------------------------   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
