@@ -1,0 +1,67 @@
+
+
+  data structures
+  ---------------
+  
+  organize memory for data to do CRUDSS.
+  
+  operations that we do on data-structures called 'algorithms'
+  
+  
+  
+  types of data-structures
+  
+  1. primary
+  
+     hold single data-element  e.g int n=12;
+  
+  2. secondary
+  
+     hold many data elements
+  
+  
+     a. linear
+     
+     	i.   array
+     	ii.  linkedlist
+     	iii. stack
+     	iv . queue
+     	
+     	
+     	Hashtable
+     
+     b. non-linear
+     
+         1. Tree
+         2. Graph
+         
+  ---------------------------------------------------------------
+  
+  from java community , 
+    we got ready-made secondary data-structure implementations
+    
+    called " collections frameworks"'
+    
+    
+    part of java.util.*;   package
+    
+    
+    advantages :
+    
+    -------------------------------------------------------------
+    
+    
+    
+    
+  
+  
+  
+  
+  
+         
+     
+     
+     
+     
+     
+     
