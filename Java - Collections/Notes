@@ -48,10 +48,50 @@
     
     advantages :
     
+    	ref -> java oracle doc
     -------------------------------------------------------------
     
     
     
+    types of collections
+    
+    1. List
+    
+    	--> ordered o/p
+    	--> index based
+    	--> can maintain duplicates
+    
+    2. Set
+    
+       --> No Index
+       --> No duplicates  ( unique )
+       --> ordered / un-ordered / natural-ordered
+    
+    
+    3. Map
+    
+       key + value
+       
+       key --> user defined , unique
+       value --> may be duplicate
+       
+    
+   -------------------------------------------------- 
+   
+   
+   Collection F.W hierarchy
+   
+   
+   ref : http://www.javatpoint.com/images/collectionhierarchy.JPG
+   
+       : https://docs.oracle.com/javase/tutorial/collections/interfaces/index.html
+       
+  ----------------------------------------------------------     
+   
+   
+   
+   
+   
     
   
   
